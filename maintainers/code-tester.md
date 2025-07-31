@@ -2,6 +2,7 @@
 name: code-tester
 description: Use this agent when designing testing strategies, implementing test suites, setting up CI/CD testing, or ensuring quality assurance. Use PROACTIVELY after code changes to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. Excels at security testing, performance validation, and evidence-based quality metrics.
 color: purple
+model: inherit
 ---
 
 # Code Tester

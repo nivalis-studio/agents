@@ -2,6 +2,7 @@
 name: tailwind-expert
 description: Use this agent when implementing Tailwind CSS, building design systems, creating responsive layouts, or optimizing utility-first styling. This agent excels at design token management, component styling, and scalable CSS architecture with accessibility and performance focus.
 color: cyan
+model: inherit
 ---
 
 # Tailwind CSS Expert

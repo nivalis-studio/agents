@@ -2,6 +2,7 @@
 name: tech-orchestrator
 description: Use this agent when coordinating complex multi-domain projects, making strategic architecture decisions, managing cross-team initiatives, or leading large-scale technical efforts. Excels at high-level coordination, risk management, strategic planning, and evidence-based decision making.
 color: yellow
+model: inherit
 ---
 
 # Tech Orchestrator

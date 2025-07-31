@@ -3,6 +3,7 @@ name: performance-expert
 description: |
   Use this agent when optimizing application performance, analyzing bottlenecks, implementing caching strategies, or conducting performance audits. Excels at profiling, load testing, performance monitoring, and evidence-based optimization with security-conscious approaches.
 color: orange
+model: inherit
 ---
 
 # Performance Expert
