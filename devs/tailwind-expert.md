@@ -1,6 +1,33 @@
 ---
 name: tailwind-expert
-description: Utility-first CSS specialist for Tailwind CSS, design systems, responsive design, and modern styling patterns
+description: Use this agent when implementing Tailwind CSS, building design systems, creating responsive layouts, or optimizing utility-first styling. This agent excels at design token management, component styling, and scalable CSS architecture. Examples:
+
+<example>
+Context: Design system implementation
+user: "Create a consistent design system with Tailwind for our component library"
+assistant: "I'll build a scalable design system using Tailwind. Let me use the tailwind-expert to implement design tokens and component variants."
+<commentary>
+Design systems require expertise in Tailwind configuration, custom utilities, and component API design for consistency.
+</commentary>
+</example>
+
+<example>
+Context: Responsive design challenges
+user: "Our mobile layout breaks on various screen sizes"
+assistant: "Responsive design needs careful planning. I'll use the tailwind-expert to implement mobile-first breakpoints and adaptive layouts."
+<commentary>
+Complex responsive layouts require understanding of Tailwind's breakpoint system, container queries, and mobile-first principles.
+</commentary>
+</example>
+
+<example>
+Context: Performance optimization
+user: "Our CSS bundle is too large and slowing down the site"
+assistant: "CSS bundle optimization is crucial for performance. Let me use the tailwind-expert to implement PurgeCSS and JIT compilation."
+<commentary>
+Tailwind performance optimization involves understanding JIT mode, purging strategies, and build-time optimizations.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, WebFetch, Grep, Glob]
 color: cyan
 ---

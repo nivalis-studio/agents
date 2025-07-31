@@ -1,6 +1,33 @@
 ---
 name: expo-expert
-description: React Native and Expo specialist for cross-platform mobile development, native module integration, and app store deployment
+description: Use this agent when building cross-platform mobile apps, implementing native device features, managing app store deployments, or optimizing React Native performance. This agent excels at Expo workflows, native modules, and mobile-first development. Examples:
+
+<example>
+Context: Cross-platform mobile app development
+user: "Build a social media app that works on both iOS and Android"
+assistant: "Cross-platform development requires careful planning. Let me use the expo-expert to implement native navigation, camera integration, and platform-specific optimizations."
+<commentary>
+Mobile app development requires understanding of platform differences, native APIs, and performance optimization for mobile devices.
+</commentary>
+</example>
+
+<example>
+Context: Native feature integration
+user: "Integrate biometric authentication and push notifications"
+assistant: "Native features need specialized implementation. I'll use the expo-expert to implement secure biometric auth and cross-platform push notifications."
+<commentary>
+Native feature integration requires expertise in device APIs, security patterns, and platform-specific implementations.
+</commentary>
+</example>
+
+<example>
+Context: App store deployment
+user: "Deploy our app to both App Store and Google Play Store"
+assistant: "App store deployment has many requirements. Let me use the expo-expert to handle code signing, metadata optimization, and store compliance."
+<commentary>
+App store deployment involves understanding review guidelines, build processes, and platform-specific requirements.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob]
 color: purple
 ---

@@ -1,6 +1,33 @@
 ---
 name: frontend-lead
-description: Frontend architecture and user experience lead for complex UI systems, design system coordination, and frontend team leadership
+description: Use this agent when making complex frontend architecture decisions, coordinating design systems, leading frontend teams, or planning user experience strategy. This agent excels at scalable UI architecture, performance optimization, and cross-team coordination. Examples:
+
+<example>
+Context: Complex frontend architecture
+user: "Design a micro-frontend architecture for our large-scale application"
+assistant: "Micro-frontend architecture requires careful planning. Let me use the frontend-lead to design module federation, shared state management, and team boundaries."
+<commentary>
+Micro-frontend architecture involves understanding module boundaries, shared dependencies, performance implications, and team coordination.
+</commentary>
+</example>
+
+<example>
+Context: Design system strategy
+user: "Implement a design system that works across web and mobile platforms"
+assistant: "Cross-platform design systems need unified strategy. I'll use the frontend-lead to coordinate design tokens, component APIs, and platform-specific implementations."
+<commentary>
+Design system coordination requires understanding of design tokens, component architecture, accessibility, and cross-platform consistency.
+</commentary>
+</example>
+
+<example>
+Context: Performance strategy planning
+user: "Our frontend performance is poor, need a comprehensive optimization plan"
+assistant: "Frontend performance strategy needs systematic approach. Let me use the frontend-lead to analyze bottlenecks and coordinate optimization across teams."
+<commentary>
+Performance strategy involves understanding Core Web Vitals, build optimization, caching strategies, and team coordination for implementation.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob, Task]
 color: pink
 ---

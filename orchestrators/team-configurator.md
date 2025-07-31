@@ -1,6 +1,33 @@
 ---
 name: team-configurator
-description: Project setup and team configuration specialist for technology stack analysis, agent selection, and development environment optimization
+description: Use this agent when setting up new projects, configuring development environments, analyzing technology stacks, or optimizing team workflows. This agent excels at project initialization, toolchain setup, and team coordination. Examples:
+
+<example>
+Context: New project initialization
+user: "Set up a new full-stack TypeScript project with Next.js and Prisma"
+assistant: "New project setup requires comprehensive configuration. Let me use the team-configurator to initialize the stack, configure tooling, and set up development workflows."
+<commentary>
+Project initialization involves understanding technology dependencies, development environment setup, and team workflow optimization.
+</commentary>
+</example>
+
+<example>
+Context: Development environment optimization
+user: "Our team's development setup is inconsistent and causing issues"
+assistant: "Development environment consistency is crucial. I'll use the team-configurator to standardize tooling, containerization, and team workflows."
+<commentary>
+Environment optimization requires understanding of containerization, toolchain standardization, and developer experience improvement.
+</commentary>
+</example>
+
+<example>
+Context: Technology stack migration
+user: "Migrate our legacy project to modern tooling and practices"
+assistant: "Stack migration needs careful planning. Let me use the team-configurator to analyze current state, plan migration, and coordinate team transition."
+<commentary>
+Technology migration involves understanding legacy constraints, modern alternatives, migration strategies, and team training requirements.
+</commentary>
+</example>
 tools: [LS, Read, Write, Bash, Grep, Glob, Task]
 color: gray
 ---

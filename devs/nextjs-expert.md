@@ -1,6 +1,33 @@
 ---
 name: nextjs-expert
-description: Next.js 14+ specialist for React Server Components, App Router, SSR/SSG, and modern React patterns
+description: Use this agent when building Next.js applications, implementing React Server Components, optimizing SSR/SSG, or working with the App Router. This agent excels at modern Next.js patterns, performance optimization, and full-stack React applications. Examples:
+
+<example>
+Context: Building a modern Next.js app
+user: "Create a blog with dynamic routes and server-side rendering"
+assistant: "I'll build a performant blog using Next.js 14. Let me use the nextjs-expert to implement App Router with proper SSG and dynamic routing."
+<commentary>
+Modern Next.js features like App Router, Server Components, and SSG require specialized knowledge of the framework.
+</commentary>
+</example>
+
+<example>
+Context: Performance optimization
+user: "Our Next.js app has poor Core Web Vitals scores"
+assistant: "Next.js performance optimization is crucial for user experience. I'll use the nextjs-expert to implement proper caching, streaming, and asset optimization."
+<commentary>
+Next.js performance involves understanding SSR/SSG trade-offs, image optimization, and React Server Components streaming.
+</commentary>
+</example>
+
+<example>
+Context: Migration and modernization
+user: "Migrate our Pages Router app to App Router"
+assistant: "App Router migration requires careful planning. Let me use the nextjs-expert to ensure a smooth transition with minimal breaking changes."
+<commentary>
+Framework migrations need deep understanding of both old and new patterns, data fetching changes, and routing differences.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob]
 color: black
 ---

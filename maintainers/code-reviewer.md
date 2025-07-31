@@ -1,6 +1,33 @@
 ---
 name: code-reviewer
-description: Comprehensive code review specialist for security, performance, maintainability, and best practices validation
+description: Use this agent when conducting code reviews, security audits, architecture assessments, or quality validation. This agent excels at identifying vulnerabilities, performance issues, and maintainability problems. Examples:
+
+<example>
+Context: Pre-merge code review
+user: "Review this pull request for a new authentication system"
+assistant: "Authentication systems need thorough security review. Let me use the code-reviewer to analyze for vulnerabilities, best practices, and compliance."
+<commentary>
+Security-critical code requires comprehensive review of authentication flows, input validation, and potential attack vectors.
+</commentary>
+</example>
+
+<example>
+Context: Performance impact assessment
+user: "Will this database query change impact our API performance?"
+assistant: "Performance impact needs careful analysis. I'll use the code-reviewer to assess query efficiency, indexing, and scalability implications."
+<commentary>
+Performance reviews require understanding of query execution plans, database optimization, and system load characteristics.
+</commentary>
+</example>
+
+<example>
+Context: Architecture compliance review
+user: "Ensure this new service follows our microservices patterns"
+assistant: "Architecture compliance is crucial for maintainability. Let me use the code-reviewer to validate service boundaries, communication patterns, and standards."
+<commentary>
+Architecture reviews ensure consistency with established patterns, proper separation of concerns, and long-term maintainability.
+</commentary>
+</example>
 tools: [Read, Grep, Glob, LS, Bash]
 color: green
 ---

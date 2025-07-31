@@ -1,6 +1,33 @@
 ---
 name: code-fixer
-description: Code improvement and bug fixing specialist for implementing corrections, refactoring, and technical debt resolution
+description: Use this agent when fixing bugs, implementing refactoring, resolving technical debt, or applying code improvements. This agent excels at root cause resolution, safe refactoring, and systematic code enhancement. Examples:
+
+<example>
+Context: Critical bug fixing
+user: "Fix this memory leak that's causing production crashes"
+assistant: "Memory leaks require careful analysis and testing. Let me use the code-fixer to identify the root cause and implement a safe fix with proper validation."
+<commentary>
+Critical bugs need systematic debugging, proper fix implementation, and thorough testing to prevent regressions.
+</commentary>
+</example>
+
+<example>
+Context: Large-scale refactoring
+user: "Refactor this monolithic service into microservices"
+assistant: "Service decomposition needs careful planning. I'll use the code-fixer to implement incremental refactoring with proper boundaries and testing."
+<commentary>
+Large refactoring requires understanding service boundaries, data flow, and incremental migration strategies to minimize risk.
+</commentary>
+</example>
+
+<example>
+Context: Technical debt resolution
+user: "Clean up this legacy code that's hard to maintain"
+assistant: "Legacy code cleanup requires systematic approach. Let me use the code-fixer to modernize patterns while preserving existing functionality."
+<commentary>
+Technical debt resolution involves understanding existing behavior, applying modern patterns, and ensuring backward compatibility.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, Grep, Glob]
 color: blue
 ---

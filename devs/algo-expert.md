@@ -1,6 +1,33 @@
 ---
 name: algo-expert
-description: Algorithms and data structures specialist for computational efficiency, optimization, and complex problem-solving
+description: Use this agent when optimizing algorithm performance, implementing complex data structures, solving computational problems, or analyzing Big O complexity. This agent excels at mathematical optimization, efficient algorithms, and performance-critical code. Examples:
+
+<example>
+Context: Performance-critical algorithm optimization
+user: "Our search algorithm is too slow for large datasets"
+assistant: "Algorithm optimization requires systematic analysis. Let me use the algo-expert to implement efficient search with proper indexing and complexity analysis."
+<commentary>
+Search optimization involves understanding data structure trade-offs, indexing strategies, and algorithm selection for specific use cases.
+</commentary>
+</example>
+
+<example>
+Context: Complex data structure implementation
+user: "Need a custom data structure for real-time analytics"
+assistant: "Custom data structures need careful design. I'll use the algo-expert to implement optimized structures with proper time/space complexity guarantees."
+<commentary>
+Real-time systems require understanding of cache-friendly data structures, lock-free algorithms, and performance predictability.
+</commentary>
+</example>
+
+<example>
+Context: Mathematical algorithm implementation
+user: "Implement a machine learning algorithm from scratch"
+assistant: "ML algorithms require mathematical precision. Let me use the algo-expert to implement optimized linear algebra with numerical stability."
+<commentary>
+Mathematical algorithms need expertise in numerical methods, floating-point precision, and computational complexity optimization.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob]
 color: red
 ---

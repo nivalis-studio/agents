@@ -1,6 +1,33 @@
 ---
 name: go-expert
-description: Backend services specialist for Go, microservices architecture, concurrent programming, and cloud-native development
+description: Use this agent when building backend services, implementing microservices, handling concurrent programming, or developing cloud-native applications with Go. This agent excels at goroutines, API design, and scalable service architecture. Examples:
+
+<example>
+Context: Microservices architecture
+user: "Build a microservices system for handling user authentication and authorization"
+assistant: "Microservices with Go require careful design. Let me use the go-expert to implement secure services with proper gRPC communication and observability."
+<commentary>
+Microservices architecture requires expertise in service boundaries, inter-service communication, and distributed system patterns.
+</commentary>
+</example>
+
+<example>
+Context: High-concurrency API development
+user: "Our API needs to handle 10,000 concurrent requests efficiently"
+assistant: "High-concurrency Go APIs need expert optimization. I'll use the go-expert to implement goroutine pools, connection management, and load balancing."
+<commentary>
+Concurrent programming in Go requires understanding of goroutines, channels, context management, and resource pooling.
+</commentary>
+</example>
+
+<example>
+Context: Cloud-native deployment
+user: "Deploy our Go services to Kubernetes with proper monitoring"
+assistant: "Cloud-native Go deployment requires specialized knowledge. Let me use the go-expert to implement health checks, metrics, and container optimization."
+<commentary>
+Cloud-native development involves understanding containerization, service mesh, observability, and Kubernetes patterns.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob]
 color: teal
 ---

@@ -1,6 +1,33 @@
 ---
 name: database-expert
-description: Database architecture specialist for Prisma ORM, PostgreSQL, SQL optimization, and data modeling
+description: Use this agent when designing database schemas, optimizing SQL queries, implementing Prisma ORM, or managing PostgreSQL systems. This agent excels at data modeling, query performance, and database architecture. Examples:
+
+<example>
+Context: Database schema design
+user: "Design a database schema for a multi-tenant SaaS application"
+assistant: "Multi-tenant schema design requires careful planning. Let me use the database-expert to implement row-level security and efficient data isolation."
+<commentary>
+Multi-tenant databases require expertise in data isolation strategies, performance optimization, and security considerations.
+</commentary>
+</example>
+
+<example>
+Context: Query performance optimization
+user: "Our dashboard queries are taking 30+ seconds to load"
+assistant: "Query performance issues need systematic analysis. I'll use the database-expert to optimize queries, add proper indexes, and implement caching."
+<commentary>
+Query optimization requires understanding of execution plans, indexing strategies, and PostgreSQL-specific performance features.
+</commentary>
+</example>
+
+<example>
+Context: Prisma integration and type safety
+user: "Migrate from raw SQL to Prisma with full type safety"
+assistant: "Prisma migration requires careful schema design. Let me use the database-expert to implement type-safe queries and efficient data access patterns."
+<commentary>
+Prisma integration involves understanding ORM patterns, type generation, and balancing convenience with performance.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob]
 color: indigo
 ---

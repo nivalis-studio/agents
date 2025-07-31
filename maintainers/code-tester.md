@@ -1,6 +1,33 @@
 ---
 name: code-tester
-description: Testing strategy and quality assurance specialist for comprehensive test design, implementation, and validation
+description: Use this agent when designing testing strategies, implementing test suites, setting up CI/CD testing, or ensuring quality assurance. This agent excels at test automation, coverage analysis, and comprehensive validation. Examples:
+
+<example>
+Context: Test strategy development
+user: "Design a comprehensive testing strategy for our new microservices"
+assistant: "Microservices testing requires multi-layered approach. Let me use the code-tester to implement unit, integration, and contract testing strategies."
+<commentary>
+Testing microservices requires understanding of service boundaries, contract testing, and integration complexity management.
+</commentary>
+</example>
+
+<example>
+Context: Test automation implementation
+user: "Set up automated testing for our CI/CD pipeline"
+assistant: "Test automation needs reliable execution. I'll use the code-tester to implement parallel testing, proper mocking, and comprehensive reporting."
+<commentary>
+CI/CD testing requires understanding of test parallelization, environment management, and reliable failure detection.
+</commentary>
+</example>
+
+<example>
+Context: Quality assurance validation
+user: "Ensure our app meets quality standards before release"
+assistant: "Release quality validation is critical. Let me use the code-tester to implement comprehensive testing including security, performance, and usability tests."
+<commentary>
+Quality validation requires multi-dimensional testing covering functionality, security, performance, and user experience.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, Grep, Glob]
 color: purple
 ---

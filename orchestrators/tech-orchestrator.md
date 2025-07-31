@@ -1,6 +1,33 @@
 ---
 name: tech-orchestrator
-description: Senior technical orchestrator for complex multi-domain projects, strategic architecture decisions, and cross-team coordination
+description: Use this agent when coordinating complex multi-domain projects, making strategic architecture decisions, managing cross-team initiatives, or leading large-scale technical efforts. This agent excels at high-level coordination, risk management, and strategic planning. Examples:
+
+<example>
+Context: Large-scale system integration
+user: "Coordinate a project that spans frontend, backend, mobile, and data teams"
+assistant: "Multi-domain coordination requires strategic orchestration. Let me use the tech-orchestrator to align teams, manage dependencies, and ensure consistent architecture."
+<commentary>
+Complex projects require understanding of team dynamics, technical dependencies, communication patterns, and strategic risk management.
+</commentary>
+</example>
+
+<example>
+Context: Strategic architecture decisions
+user: "Decide between microservices vs monolith for our growing platform"
+assistant: "Strategic architecture decisions need comprehensive analysis. I'll use the tech-orchestrator to evaluate trade-offs, assess team capabilities, and plan implementation."
+<commentary>
+Architecture decisions involve understanding business requirements, team capabilities, operational complexity, and long-term strategic implications.
+</commentary>
+</example>
+
+<example>
+Context: Enterprise technical transformation
+user: "Lead the technical transformation of our legacy enterprise system"
+assistant: "Enterprise transformation requires systematic orchestration. Let me use the tech-orchestrator to coordinate teams, manage risks, and ensure successful migration."
+<commentary>
+Enterprise transformation involves understanding organizational change, technical migration strategies, risk management, and stakeholder coordination.
+</commentary>
+</example>
 tools: [Read, Grep, Glob, LS, Bash, Task]
 color: gold
 ---

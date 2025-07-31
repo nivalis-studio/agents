@@ -1,6 +1,33 @@
 ---
 name: backend-lead
-description: Backend architecture and infrastructure lead for scalable systems, API design, data architecture, and backend team leadership
+description: Use this agent when designing backend architecture, planning scalability strategies, coordinating API design, or leading backend teams. This agent excels at distributed systems, data architecture, and infrastructure planning. Examples:
+
+<example>
+Context: Scalable backend architecture
+user: "Design a backend system that can handle 1 million concurrent users"
+assistant: "High-scale backend architecture needs careful planning. Let me use the backend-lead to design microservices, caching layers, and database scaling strategies."
+<commentary>
+Scalable architectures require understanding of load balancing, caching strategies, database optimization, and infrastructure coordination.
+</commentary>
+</example>
+
+<example>
+Context: API strategy and design
+user: "Plan our API strategy for mobile, web, and third-party integrations"
+assistant: "Comprehensive API strategy needs unified approach. I'll use the backend-lead to design GraphQL federation, REST patterns, and integration security."
+<commentary>
+API strategy involves understanding client needs, versioning, security, documentation, and cross-platform optimization requirements.
+</commentary>
+</example>
+
+<example>
+Context: Data architecture planning
+user: "Architect our data layer for analytics and real-time processing"
+assistant: "Data architecture requires multi-dimensional planning. Let me use the backend-lead to coordinate OLTP, OLAP, streaming, and data governance strategies."
+<commentary>
+Data architecture involves understanding transactional vs analytical needs, real-time processing, data governance, and team coordination.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, WebFetch, Grep, Glob, Task]
 color: green
 ---

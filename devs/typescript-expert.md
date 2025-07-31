@@ -1,6 +1,33 @@
 ---
 name: typescript-expert
-description: Advanced TypeScript specialist for type system design, complex typing patterns, and JavaScript/TypeScript best practices
+description: Use this agent when working with TypeScript type systems, complex generics, type safety issues, or advanced TypeScript patterns. This agent excels at type system design, compilation optimization, and modern TypeScript development. Examples:
+
+<example>
+Context: Complex type system design
+user: "Create a type-safe API client with proper error handling"
+assistant: "I'll design a robust type-safe API client. Let me use the typescript-expert to implement advanced generics and error types."
+<commentary>
+Complex type systems require deep TypeScript knowledge for proper generic constraints and type inference.
+</commentary>
+</example>
+
+<example>
+Context: TypeScript compilation issues
+user: "Our TypeScript build is slow and has mysterious type errors"
+assistant: "Performance and type issues need expert analysis. I'll use the typescript-expert to optimize the build and resolve type conflicts."
+<commentary>
+TypeScript compilation optimization requires understanding of project references, incremental builds, and type system performance.
+</commentary>
+</example>
+
+<example>
+Context: Advanced typing patterns
+user: "Need to implement branded types for our domain models"
+assistant: "Branded types require advanced TypeScript patterns. Let me use the typescript-expert to create type-safe domain modeling."
+<commentary>
+Advanced patterns like branded types, template literal types, and conditional types need specialized expertise.
+</commentary>
+</example>
 tools: [Read, Write, Edit, MultiEdit, Bash, Grep, Glob]
 color: blue
 ---

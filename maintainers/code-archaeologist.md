@@ -1,6 +1,33 @@
 ---
 name: code-archaeologist
-description: Codebase exploration and legacy system analysis specialist for understanding complex, unfamiliar, or undocumented code
+description: Use this agent when exploring unfamiliar codebases, analyzing legacy systems, documenting complex architectures, or conducting technical due diligence. This agent excels at reverse engineering, dependency analysis, and knowledge extraction. Examples:
+
+<example>
+Context: Legacy system analysis
+user: "Analyze this 10-year-old PHP codebase we just inherited"
+assistant: "Legacy code analysis requires systematic exploration. Let me use the code-archaeologist to map the architecture, identify risks, and document the system."
+<commentary>
+Legacy systems need careful analysis to understand business logic, technical debt, and modernization opportunities without breaking functionality.
+</commentary>
+</example>
+
+<example>
+Context: Large codebase onboarding
+user: "New team member needs to understand our complex microservices architecture"
+assistant: "Complex system onboarding needs structured guidance. I'll use the code-archaeologist to create comprehensive documentation and learning paths."
+<commentary>
+Large systems require systematic exploration to understand service boundaries, data flow, and integration patterns for effective onboarding.
+</commentary>
+</example>
+
+<example>
+Context: Technical debt assessment
+user: "Evaluate technical debt before deciding on a major refactoring"
+assistant: "Technical debt assessment requires thorough analysis. Let me use the code-archaeologist to identify hotspots, dependencies, and refactoring priorities."
+<commentary>
+Technical debt analysis involves understanding code quality metrics, change frequency, and business impact for informed decision-making.
+</commentary>
+</example>
 tools: [Read, Grep, Glob, LS, Bash]
 color: brown
 ---
