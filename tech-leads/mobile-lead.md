@@ -109,6 +109,17 @@ model: inherit
 - **Timeline Coordination**: MUST coordinate expert delivery schedules with maintainer review and app store submission cycles
 - **Native Dependencies**: MUST identify and communicate native module requirements and platform-specific integration points
 
+## Delegation Patterns
+
+**MANDATORY delegations for ALL code work**:
+- `code-documenter`: For ALL code comments, inline documentation, and technical documentation - experts NEVER write comments directly
+- `code-tester`: For ALL test cases, test suites, testing code, and testing strategies - experts NEVER write tests directly
+
+**Expert Coordination**:
+- `expo-expert`: React Native development, Expo SDK integration, mobile-specific patterns
+- `typescript-expert`: Mobile TypeScript patterns, React Native typing
+- `performance-expert`: Mobile performance optimization, app launch optimization
+
 ## Success Metrics
 - **Expert Coordination**: 95%+ successful expert task completion with proper cross-platform integration
 - **Maintainer Flow**: 90%+ expert outputs pass maintainer review on first submission

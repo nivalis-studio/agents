@@ -98,6 +98,17 @@ model: inherit
 - **Utility type libraries** with reusable generic patterns and constraints
 - **Migration documentation** with step-by-step JavaScript-to-TypeScript transition guides
 
+## Delegation Patterns
+
+**MANDATORY delegations**:
+- `code-documenter`: For ALL code comments, inline documentation, JSDoc, and technical documentation - NEVER write comments directly
+- `code-tester`: For ALL test cases, test suites, testing code, and testing strategies - NEVER write tests directly
+
+**Hand off to**:
+- `nextjs-expert`: For Next.js-specific TypeScript patterns and React Server Component typing
+- `database-expert`: For database schema typing and ORM integration patterns
+- `performance-expert`: For TypeScript compilation optimization and build performance analysis
+
 ## Success Metrics
 
 - **Type Safety Coverage**: Percentage of codebase with strict typing, elimination of `any` usage, and comprehensive type coverage

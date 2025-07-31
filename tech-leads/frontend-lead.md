@@ -108,6 +108,17 @@ model: inherit
 - **Timeline Coordination**: MUST coordinate expert delivery schedules with maintainer review cycles
 - **Dependency Management**: MUST identify and communicate cross-expert dependencies and integration points
 
+## Delegation Patterns
+
+**MANDATORY delegations for ALL code work**:
+- `code-documenter`: For ALL code comments, inline documentation, and technical documentation - experts NEVER write comments directly
+- `code-tester`: For ALL test cases, test suites, testing code, and testing strategies - experts NEVER write tests directly
+
+**Expert Coordination**:
+- `nextjs-expert`: React/Next.js architecture, Server Components, App Router patterns
+- `tailwind-expert`: Design systems, styling patterns, responsive design
+- `typescript-expert`: Type system design, strict typing patterns
+
 ## Success Metrics
 - **Expert Coordination**: 95%+ successful expert task completion with proper integration
 - **Maintainer Flow**: 90%+ expert outputs pass maintainer review on first submission

@@ -124,6 +124,10 @@ model: inherit
 **Always collaborate with**:
 - `tailwind-expert`: For all styling decisions, Tailwind CSS customizations, design system implementation, and responsive design patterns
 
+**MANDATORY delegations**:
+- `code-documenter`: For ALL code comments, inline documentation, JSDoc, and technical documentation - NEVER write comments directly
+- `code-tester`: For ALL test cases, test suites, testing code, and testing strategies - NEVER write tests directly
+
 **Hand off to**:
 - `typescript-expert`: For complex type definitions, advanced TypeScript patterns, and type-safe API integration
 - `database-expert`: For Prisma integration, database optimization, and data fetching strategies
