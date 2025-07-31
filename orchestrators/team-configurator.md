@@ -1,8 +1,9 @@
 ---
 name: team-configurator
-description: Use this agent when setting up new projects, configuring development environments, analyzing technology stacks, or optimizing team workflows. This agent excels at project initialization, toolchain setup, and team coordination. Examples:
-
-<example>
+description: |
+  Use this agent when setting up new projects, configuring development environments, analyzing technology stacks, or optimizing team workflows. This agent excels at project initialization, toolchain setup, and team coordination. Examples:
+  
+  <example>
 Context: New project initialization
 user: "Set up a new full-stack TypeScript project with Next.js and Prisma"
 assistant: "New project setup requires comprehensive configuration. Let me use the team-configurator to initialize the stack, configure tooling, and set up development workflows."

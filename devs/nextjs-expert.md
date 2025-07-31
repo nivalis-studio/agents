@@ -1,8 +1,9 @@
 ---
 name: nextjs-expert
-description: Use this agent when building Next.js applications, implementing React Server Components, optimizing SSR/SSG, or working with the App Router. This agent excels at modern Next.js patterns, performance optimization, and full-stack React applications. Examples:
-
-<example>
+description: |
+  Use this agent when building Next.js applications, implementing React Server Components, optimizing SSR/SSG, or working with the App Router. This agent excels at modern Next.js patterns, performance optimization, and full-stack React applications. Examples:
+  
+  <example>
 Context: Building a modern Next.js app
 user: "Create a blog with dynamic routes and server-side rendering"
 assistant: "I'll build a performant blog using Next.js 14. Let me use the nextjs-expert to implement App Router with proper SSG and dynamic routing."

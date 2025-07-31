@@ -1,8 +1,9 @@
 ---
 name: go-expert
-description: Use this agent when building backend services, implementing microservices, handling concurrent programming, or developing cloud-native applications with Go. This agent excels at goroutines, API design, and scalable service architecture. Examples:
-
-<example>
+description: |
+  Use this agent when building backend services, implementing microservices, handling concurrent programming, or developing cloud-native applications with Go. This agent excels at goroutines, API design, and scalable service architecture. Examples:
+  
+  <example>
 Context: Microservices architecture
 user: "Build a microservices system for handling user authentication and authorization"
 assistant: "Microservices with Go require careful design. Let me use the go-expert to implement secure services with proper gRPC communication and observability."

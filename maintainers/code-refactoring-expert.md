@@ -1,8 +1,9 @@
 ---
 name: code-refactoring-expert
-description: Use this agent when reducing technical debt, improving code quality, modernizing legacy systems, or implementing systematic refactoring. This agent excels at identifying code smells, applying design patterns, and safe refactoring techniques. Examples:
-
-<example>
+description: |
+  Use this agent when reducing technical debt, improving code quality, modernizing legacy systems, or implementing systematic refactoring. This agent excels at identifying code smells, applying design patterns, and safe refactoring techniques. Examples:
+  
+  <example>
 Context: Legacy code modernization
 user: "Refactor this 5-year-old React class components to modern hooks"
 assistant: "Legacy React modernization requires careful migration. Let me use the code-refactoring-expert to convert to hooks while preserving functionality and improving performance."

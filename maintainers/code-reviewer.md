@@ -1,8 +1,9 @@
 ---
 name: code-reviewer
-description: Use this agent when conducting code reviews, security audits, architecture assessments, or quality validation. This agent excels at identifying vulnerabilities, performance issues, and maintainability problems. Examples:
-
-<example>
+description: |
+  Use this agent when conducting code reviews, security audits, architecture assessments, or quality validation. This agent excels at identifying vulnerabilities, performance issues, and maintainability problems. Examples:
+  
+  <example>
 Context: Pre-merge code review
 user: "Review this pull request for a new authentication system"
 assistant: "Authentication systems need thorough security review. Let me use the code-reviewer to analyze for vulnerabilities, best practices, and compliance."

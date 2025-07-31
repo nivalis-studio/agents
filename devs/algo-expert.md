@@ -1,8 +1,9 @@
 ---
 name: algo-expert
-description: Use this agent when optimizing algorithm performance, implementing complex data structures, solving computational problems, or analyzing Big O complexity. This agent excels at mathematical optimization, efficient algorithms, and performance-critical code. Examples:
-
-<example>
+description: |
+  Use this agent when optimizing algorithm performance, implementing complex data structures, solving computational problems, or analyzing Big O complexity. This agent excels at mathematical optimization, efficient algorithms, and performance-critical code. Examples:
+  
+  <example>
 Context: Performance-critical algorithm optimization
 user: "Our search algorithm is too slow for large datasets"
 assistant: "Algorithm optimization requires systematic analysis. Let me use the algo-expert to implement efficient search with proper indexing and complexity analysis."

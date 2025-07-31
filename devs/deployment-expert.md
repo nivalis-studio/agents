@@ -1,8 +1,9 @@
 ---
 name: deployment-expert
-description: Use this agent when implementing CI/CD pipelines, containerizing applications, managing Docker deployments, or automating delivery workflows. Use PROACTIVELY when setting up deployments, containers, or CI/CD workflows. This agent excels at GitHub Actions, Docker optimization, deployment strategies, and release automation. Examples:
-
-<example>
+description: |
+  Use this agent when implementing CI/CD pipelines, containerizing applications, managing Docker deployments, or automating delivery workflows. Use PROACTIVELY when setting up deployments, containers, or CI/CD workflows. This agent excels at GitHub Actions, Docker optimization, deployment strategies, and release automation. Examples:
+  
+  <example>
 Context: CI/CD pipeline setup
 user: "Set up automated CI/CD pipeline for our Next.js application with testing and deployment"
 assistant: "CI/CD automation needs reliable workflow design. Let me use the deployment-expert to implement GitHub Actions with proper testing, security scanning, and deployment strategies."

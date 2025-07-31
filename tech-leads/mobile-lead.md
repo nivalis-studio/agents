@@ -1,8 +1,9 @@
 ---
 name: mobile-lead
-description: Use this agent when designing mobile architecture, planning cross-platform strategies, coordinating app store deployments, or leading mobile teams. This agent excels at native integration, performance optimization, and platform-specific development. Examples:
-
-<example>
+description: |
+  Use this agent when designing mobile architecture, planning cross-platform strategies, coordinating app store deployments, or leading mobile teams. This agent excels at native integration, performance optimization, and platform-specific development. Examples:
+  
+  <example>
 Context: Cross-platform mobile strategy
 user: "Plan a mobile strategy that maximizes code sharing between iOS and Android"
 assistant: "Cross-platform strategy needs careful platform balance. Let me use the mobile-lead to design React Native architecture with platform-specific optimizations."

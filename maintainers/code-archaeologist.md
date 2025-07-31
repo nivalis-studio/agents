@@ -1,8 +1,9 @@
 ---
 name: code-archaeologist
-description: Use this agent when exploring unfamiliar codebases, analyzing legacy systems, documenting complex architectures, or conducting technical due diligence. This agent excels at reverse engineering, dependency analysis, and knowledge extraction. Examples:
-
-<example>
+description: |
+  Use this agent when exploring unfamiliar codebases, analyzing legacy systems, documenting complex architectures, or conducting technical due diligence. This agent excels at reverse engineering, dependency analysis, and knowledge extraction. Examples:
+  
+  <example>
 Context: Legacy system analysis
 user: "Analyze this 10-year-old PHP codebase we just inherited"
 assistant: "Legacy code analysis requires systematic exploration. Let me use the code-archaeologist to map the architecture, identify risks, and document the system."

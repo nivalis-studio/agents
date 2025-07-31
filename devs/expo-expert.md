@@ -1,8 +1,9 @@
 ---
 name: expo-expert
-description: Use this agent when building cross-platform mobile apps, implementing native device features, managing app store deployments, or optimizing React Native performance. Use PROACTIVELY for mobile features, cross-platform code, or app optimization. This agent excels at Expo workflows, native modules, and mobile-first development. Examples:
-
-<example>
+description: |
+  Use this agent when building cross-platform mobile apps, implementing native device features, managing app store deployments, or optimizing React Native performance. Use PROACTIVELY for mobile features, cross-platform code, or app optimization. This agent excels at Expo workflows, native modules, and mobile-first development. Examples:
+  
+  <example>
 Context: Cross-platform mobile app development
 user: "Build a social media app that works on both iOS and Android"
 assistant: "Cross-platform development requires careful planning. Let me use the expo-expert to implement native navigation, camera integration, and platform-specific optimizations."

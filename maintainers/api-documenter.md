@@ -1,8 +1,9 @@
 ---
 name: api-documenter
-description: Use this agent when creating comprehensive API documentation, generating OpenAPI specifications, building SDK usage guides, or creating interactive API testing collections. This agent excels at developer-first API documentation with complete code examples and testable implementations. Examples:
-
-<example>
+description: |
+  Use this agent when creating comprehensive API documentation, generating OpenAPI specifications, building SDK usage guides, or creating interactive API testing collections. This agent excels at developer-first API documentation with complete code examples and testable implementations. Examples:
+  
+  <example>
 Context: REST API documentation creation
 user: "Create complete API documentation for our user management endpoints"
 assistant: "I'll create comprehensive API documentation. Let me use the api-documenter to generate OpenAPI 3.0 specs, multi-language examples, and Postman collections."

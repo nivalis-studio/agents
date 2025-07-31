@@ -1,8 +1,9 @@
 ---
 name: frontend-lead
-description: Use this agent when making complex frontend architecture decisions, coordinating design systems, leading frontend teams, or planning user experience strategy. This agent excels at scalable UI architecture, performance optimization, and cross-team coordination. Examples:
-
-<example>
+description: |
+  Use this agent when making complex frontend architecture decisions, coordinating design systems, leading frontend teams, or planning user experience strategy. This agent excels at scalable UI architecture, performance optimization, and cross-team coordination. Examples:
+  
+  <example>
 Context: Complex frontend architecture
 user: "Design a micro-frontend architecture for our large-scale application"
 assistant: "Micro-frontend architecture requires careful planning. Let me use the frontend-lead to design module federation, shared state management, and team boundaries."

@@ -1,8 +1,9 @@
 ---
 name: code-documenter
-description: Use this agent when creating, updating, or auditing technical documentation, API documentation, user guides, or knowledge base content. This agent excels at documentation strategy, technical writing, and knowledge transfer. Examples:
-
-<example>
+description: |
+  Use this agent when creating, updating, or auditing technical documentation, API documentation, user guides, or knowledge base content. This agent excels at documentation strategy, technical writing, and knowledge transfer. Examples:
+  
+  <example>
 Context: API documentation creation
 user: "Create comprehensive API documentation for our new REST endpoints"
 assistant: "API documentation needs clear structure and examples. Let me use the code-documenter to generate complete documentation with request/response examples, error codes, and authentication details."

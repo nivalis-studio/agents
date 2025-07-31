@@ -1,8 +1,9 @@
 ---
 name: typescript-expert
-description: Use this agent when working with TypeScript type systems, complex generics, type safety issues, or advanced TypeScript patterns. This agent excels at type system design, compilation optimization, and modern TypeScript development. Examples:
-
-<example>
+description: |
+  Use this agent when working with TypeScript type systems, complex generics, type safety issues, or advanced TypeScript patterns. This agent excels at type system design, compilation optimization, and modern TypeScript development. Examples:
+  
+  <example>
 Context: Complex type system design
 user: "Create a type-safe API client with proper error handling"
 assistant: "I'll design a robust type-safe API client. Let me use the typescript-expert to implement advanced generics and error types."
