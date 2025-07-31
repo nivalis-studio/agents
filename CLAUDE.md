@@ -49,17 +49,20 @@ agents/
 ## Agent Structure & Capabilities
 
 ### Agent File Format
+
 Each agent is a markdown file with comprehensive YAML frontmatter:
+
 ```yaml
 ---
 name: agent-name
 description: When and how to use this agent with specific examples
-tools: [Read, Write, Edit, Bash, Task, etc.]
 color: visual-identifier
+model: inherit
 ---
 ```
 
 ### Standard Agent Components
+
 - **Trigger Conditions**: Automatic and explicit activation criteria
 - **Core Capabilities**: Detailed specialization areas and expertise
 - **Tool Usage Patterns**: How the agent uses Claude Code tools
@@ -67,6 +70,7 @@ color: visual-identifier
 - **Quality Standards**: Success criteria and best practices
 
 ### Technology Coverage
+
 - **Frontend**: Next.js 14+, React Server Components, TypeScript, Tailwind CSS, component libraries (@medusajs/ui, shadcn/ui)
 - **Backend**: Node.js, PostgreSQL, Prisma, Go, Rust, API design, server-side architecture
 - **Mobile**: Expo, React Native, cross-platform development, native integration
@@ -76,6 +80,7 @@ color: visual-identifier
 ## Workflow Orchestration
 
 ### Recommended Usage Pattern
+
 1. **Start with Orchestrators**: Use `tech-orchestrator` for complex projects requiring coordination
 2. **Project Setup**: Use `team-configurator` for new projects and environment setup
 3. **Domain Leadership**: Tech leads coordinate domain-specific architecture decisions
@@ -83,6 +88,7 @@ color: visual-identifier
 5. **Quality Assurance**: Maintainer agents ensure code quality and system health
 
 ### Direct Specialist Access
+
 - Simple tasks can directly access specialist agents without orchestration
 - Each agent has clear delegation patterns for seamless handoffs
 - Agents automatically coordinate with related specialists when needed
@@ -90,18 +96,21 @@ color: visual-identifier
 ## Key Operational Notes
 
 ### No Build Process
+
 - Pure documentation-based agent definitions
 - No compilation, dependencies, or build steps required
 - Git-based version control for agent evolution
 
 ### Quality Standards
-- All agents follow @nivalis/eslint-config standards when applicable  
+
+- All agents follow @nivalis/eslint-config standards when applicable
 - Code fixer agent specializes in eslint and prettier rule enforcement
 - Comprehensive testing through code-tester agent integration
 - Focus on performance optimization with specific Core Web Vitals targets
 - Security-first approach with vulnerability assessment and remediation
 
 ### Agent Coordination
+
 - **Horizontal**: Specialists collaborate with peers (e.g., nextjs-expert ↔ typescript-expert)
 - **Vertical**: Tech leads coordinate with specialists in their domain
 - **Cross-Domain**: Orchestrators manage multi-domain projects and strategic decisions
@@ -111,22 +120,26 @@ color: visual-identifier
 ## Common Development Workflows
 
 ### Starting New Projects
+
 1. Use `tech-orchestrator` for complex multi-domain projects
 2. Use `team-configurator` for project setup and environment configuration
 3. Delegate to appropriate tech leads based on project domain
 
 ### Feature Development
+
 1. **Frontend Features**: frontend-lead → nextjs-expert/tailwind-expert coordination
 2. **Backend Features**: backend-lead → relevant technology specialists (go-expert, database-expert)
 3. **Full-Stack Features**: tech-orchestrator coordinates both domains
 
 ### Code Quality & Maintenance
+
 1. **Code Review**: Use code-reviewer for systematic quality assessment
 2. **Bug Fixing**: Use code-fixer for root cause analysis and safe fixes
 3. **Legacy Analysis**: Use code-archaeologist for understanding complex codebases
 4. **Testing**: Use code-tester for comprehensive testing strategy
 
 ### Performance & Infrastructure
+
 1. **Performance Issues**: performance-expert for optimization and monitoring
 2. **Deployment**: deployment-expert for CI/CD and deployment strategies
 3. **Infrastructure**: infrastructure-expert for cloud services and scaling
