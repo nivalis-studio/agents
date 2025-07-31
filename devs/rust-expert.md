@@ -1,33 +1,34 @@
 ---
 name: rust-expert
-description: Use this agent when building systems software, optimizing performance-critical code, implementing concurrent algorithms, or working with memory-safe Rust patterns. This agent excels at ownership modeling, async programming, and zero-cost abstractions. Examples:
+description: |
+  Use this agent when building systems software, optimizing performance-critical code, implementing concurrent algorithms, or working with memory-safe Rust patterns. This agent excels at ownership modeling, async programming, and zero-cost abstractions. Examples:
 
-<example>
-Context: High-performance system development
-user: "Build a fast web server that handles thousands of concurrent connections"
-assistant: "High-performance concurrent systems are perfect for Rust. Let me use the rust-expert to implement async I/O with Tokio and efficient memory management."
-<commentary>
-Concurrent systems require deep understanding of Rust's ownership model, async runtimes, and lock-free data structures.
-</commentary>
-</example>
+  <example>
+  Context: High-performance system development
+  user: "Build a fast web server that handles thousands of concurrent connections"
+  assistant: "High-performance concurrent systems are perfect for Rust. Let me use the rust-expert to implement async I/O with Tokio and efficient memory management."
+  <commentary>
+  Concurrent systems require deep understanding of Rust's ownership model, async runtimes, and lock-free data structures.
+  </commentary>
+  </example>
 
-<example>
-Context: Memory safety critical applications
-user: "Need to interface with C libraries without memory leaks"
-assistant: "Safe FFI requires careful Rust patterns. I'll use the rust-expert to implement safe wrappers with proper RAII and error handling."
-<commentary>
-FFI and memory safety require expertise in unsafe Rust, lifetime management, and C interoperability patterns.
-</commentary>
-</example>
+  <example>
+  Context: Memory safety critical applications
+  user: "Need to interface with C libraries without memory leaks"
+  assistant: "Safe FFI requires careful Rust patterns. I'll use the rust-expert to implement safe wrappers with proper RAII and error handling."
+  <commentary>
+  FFI and memory safety require expertise in unsafe Rust, lifetime management, and C interoperability patterns.
+  </commentary>
+  </example>
 
-<example>
-Context: WebAssembly performance optimization
-user: "Compile our algorithm to WebAssembly for browser performance"
-assistant: "Rust to WASM compilation needs optimization expertise. Let me use the rust-expert to implement SIMD-optimized algorithms for web deployment."
-<commentary>
-WebAssembly optimization involves understanding Rust's WASM target, size optimization, and browser integration patterns.
-</commentary>
-</example>
+  <example>
+  Context: WebAssembly performance optimization
+  user: "Compile our algorithm to WebAssembly for browser performance"
+  assistant: "Rust to WASM compilation needs optimization expertise. Let me use the rust-expert to implement SIMD-optimized algorithms for web deployment."
+  <commentary>
+  WebAssembly optimization involves understanding Rust's WASM target, size optimization, and browser integration patterns.
+  </commentary>
+  </example>
 color: orange
 model: inherit
 ---
